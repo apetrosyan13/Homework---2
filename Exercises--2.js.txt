@@ -1,0 +1,77 @@
+1.
+for( var a = 1; a <= 10; a++) {
+  console.log(a)
+}
+2.
+for( var a = 1; a <= 10; a++) {
+  if( a === 6) {
+    continue;
+  }
+  console.log(a)
+}
+3.
+for( var a = 1; a <= 10; a++) {
+  if( a % 2 === 0 ) {
+  console.log(a)
+  }
+}
+4.
+var a = 1;
+var b = 0;
+while( a <= 10 ) {
+  b = b + a;
+  a++
+}
+console.log(b)
+5.
+var b = 0;
+for( var a = 1; a <= 10; a++ ) {
+  if( a == 8 ) {
+    continue;
+  }
+  b = b + a;
+}
+console.log( b );
+6.
+var b = 0;
+for( var a = 1; a <= 10; a++ ) {
+  if( a % 2 == 0 ) {
+    continue;
+  }
+  b = b + a;
+}
+console.log( b );
+7.
+var b = 0;
+for( var a = 1; a <= 10; a++ ) {
+b = b + a * a;
+}
+console.log( b );
+8.
+for( var  a = 1; a <= 12; a++) {
+  if( a > 1 ) {
+    if( a > 2 ) {
+      if( a > 3 ) {
+         if( a > 5 ) {
+           if( a > 8) {
+             if( a == 12) {
+               console.log( " The " + a + " -th month is winter")
+             } else {
+             console.log( " The " + a + " -th month is autumn")
+             }
+           } else {
+             console.log( " The " + a + " -th month is summer")
+           }
+         } else {
+           console.log( " The " + a + " -th month is spring")
+         }
+      } else {
+        console.log( " The " + a + " -rd month is spring" )
+      }
+    } else {
+      console.log( " The " + a + " -nd month is winter" )
+    }
+  } else {
+    console.log( " The " + a + " -st month is winter" )
+  }
+}

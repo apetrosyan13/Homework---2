@@ -1,0 +1,12 @@
+ var n = 9;
+ var a = "";
+ for(var i = 1; i <= n; i++) {
+   a = "";
+   for (var j = 1; j <= n; j++) {
+     if ((j == i) || ((i+j) == n + 1)) {
+       a += "*";
+     } else {
+a += " ";
+}
+   } console.log (a);
+ }
